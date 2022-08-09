@@ -1,0 +1,104 @@
+/** -------------------------------Main Heading START------------------------------------ */
+.main-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 15vh;
+  background-color: black;
+}
+
+.main-heading-h1 {
+  color: #fff;
+  font-size: 7rem;
+  font-weight: 100;
+  margin-bottom: 20px;
+  font-family: "Times New Roman", serif;
+}
+
+.main-heading-props {
+  display: flex;
+  color: #ffda07;
+  font-size: 20px;
+  justify-content: space-between;
+  width: 20%;
+  margin-left: 25rem;
+  padding-right: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-heading-props {
+  display: flex;
+  color: #ffda07;
+  font-size: 17px;
+  justify-content: space-between;
+  width: 20%;
+  margin-left: 25.1rem;
+  padding-right: 50px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  letter-spacing: 3px;
+}
+
+.prop1:hover {
+  color: #fff;
+  text-decoration: underline;
+  transition-duration: 600ms;
+}
+/** -------------------------------Main Heading END------------------------------------ */
+
+/** -------------------------------Navigation Start------------------------------------ */
+.nav-container {
+  min-height: 9vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 28%;
+  margin-left: 100px;
+  letter-spacing: 3px;
+}
+.navs {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navs::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  border-bottom: 2.5px solid #ffda07;
+  transition: width 0.3s;
+  font-weight: bolder;
+}
+
+.navs:hover::after {
+  width: 100%;
+}
+/** -------------------------------Navigation END------------------------------------ */
+
+/** -------------------------------Search Start------------------------------------ */
+
+#input-search {
+  font-size: 18px;
+  padding-left: 20px;
+  width: 25%;
+  height: 4.6vh;
+  margin-right: 5rem;
+  background-color: #fff;
+  font-family: "Assistant", sans-serif;
+  color: black;
+}
+
+#input-search::placeholder {
+  color: black;
+  font-weight: 100;
+}
+
+/** -------------------------------Search END------------------------------------ */
