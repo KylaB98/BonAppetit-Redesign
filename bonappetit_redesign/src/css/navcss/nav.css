@@ -32,7 +32,7 @@
   font-size: 17px;
   justify-content: space-between;
   width: 20%;
-  margin-left: 25.9rem;
+  margin-left: 25.1rem;
   padding-right: 50px;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
@@ -81,4 +81,24 @@
 .navs:hover::after {
   width: 100%;
 }
-/** -------------------------------Navigation Start------------------------------------ */
+/** -------------------------------Navigation END------------------------------------ */
+
+/** -------------------------------Search Start------------------------------------ */
+
+#input-search {
+  font-size: 18px;
+  padding-left: 20px;
+  width: 25%;
+  height: 4.6vh;
+  margin-right: 5rem;
+  background-color: #fff;
+  font-family: "Assistant", sans-serif;
+  color: black;
+}
+
+#input-search::placeholder {
+  color: black;
+  font-weight: 100;
+}
+
+/** -------------------------------Search END------------------------------------ */
