@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import "../../css/navcss/nav.css";
 
 function Nav() {
+
+
   return (
     <div>
       <div className="main-container">
@@ -19,9 +21,9 @@ function Nav() {
           <Link className="navs" to="/">Home</Link>
           <Link className="navs" to="/">Recipes</Link>
           <Link className="navs" to="/">Cooking</Link>
-          <Link className="navs" to="/">Contact</Link>
+          <Link className="navs" to="/">Newsletter</Link>
         </div>
-        <input type="text" placeholder="Search for 'stir-fry'"/>
+        <input id="input-search" type="text" placeholder='Search for "stir-fry"' disabled/>
       </nav>
     </div>
   );
