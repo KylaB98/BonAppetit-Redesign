@@ -1,17 +1,22 @@
 import "./App.css";
-import { BrowserRouter } from "react-router-dom";
-import Nav from "./components/nav/Nav";
-import Footer from "./components/footer/Footer";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Landing from "./components/HomePage/Landing";
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Nav />
-        <Footer />
-      </BrowserRouter>
+      <Router>
+        <Routes>
+          <Route path="/" element={[<Landing />]} />
+        </Routes>
+      </Router>
     </div>
   );
 }
 
 export default App;
+
+// <BrowserRouter>
+//   <Nav />
+//   <Footer />
+// </BrowserRouter>
