@@ -1,6 +1,6 @@
 import "./App.css";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
-import Landing from './components/pages/Landing'
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Landing from "./components/pages/Landing"
 
 function App() {
   return (
@@ -15,3 +15,8 @@ function App() {
 }
 
 export default App;
+
+// <BrowserRouter>
+//   <Nav />
+//   <Footer />
+// </BrowserRouter>

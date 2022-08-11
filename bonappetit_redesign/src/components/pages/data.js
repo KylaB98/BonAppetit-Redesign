@@ -21,9 +21,3 @@ export const categories = [
     title: "Gluten-Free",
   },
 ];
-
-export const topCategories = [
-  {
-    id:
-  }
-]
