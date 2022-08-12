@@ -1,3 +1,5 @@
+/** -------------------------------Background START------------------------------------ */
+
 .bg {
   position: relative;
   bottom: 0;
@@ -6,6 +8,8 @@
   background-color: black;
   color: #fff;
 }
+
+/** -------------------------------Footer START------------------------------------ */
 
 .footer-container {
   display: flex;
@@ -20,6 +24,7 @@
   font-size: 24px;
   font-weight: 100;
   font-family: "Times New Roman", serif;
+  color: #fff;
 }
 .footer-header {
   display: flex;
@@ -62,14 +67,17 @@
   margin-top: 8px;
 }
 
-.footer-copyright{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.footer-copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-copyright p {
-    font-size: 15px;
-    margin-top: 25px;
-    margin-bottom: 15px;
+  font-size: 15px;
+  margin-top: 25px;
+  margin-bottom: 15px;
 }
+/** -------------------------------Footer END------------------------------------ */
+
+/** -------------------------------Background END------------------------------------ */
