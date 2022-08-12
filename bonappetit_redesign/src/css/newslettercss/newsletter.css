@@ -16,12 +16,16 @@ body {
 #first {
   display: flex;
   flex-direction: column;
-  
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
   display: flex;
   flex-direction: row;
+  padding: 50px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 input {
@@ -30,10 +34,15 @@ input {
 
 form {
   margin: auto 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h3 {
   color: gray;
+  padding: 40px;
 }
 
 input[type=submit]{
