@@ -15,13 +15,24 @@ const Title = styled.h1`
   justify-content: center;
 `;
 
+const TitleTwo = styled.h1`
+  font-size: 60px;
+  margin: 10px;
+  padding-top: 40px;
+  display: flex;
+  align-items: inline;
+  justify-content: center;
+  margin-top: 50px;
+`;
+
 const Landing = () => {
   return (
     <div className="App">
         <Nav/>
         <Title> Top Recipes </Title>
         <TopRecipes />
-        <Title> What's Your Mood ? </Title>
+        <br></br>
+        <TitleTwo> What's Your Mood ? </TitleTwo>
         <Categories />
         <Title> What To Read </Title>
         <Articles />

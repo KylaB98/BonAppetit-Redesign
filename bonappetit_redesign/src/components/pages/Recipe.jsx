@@ -24,8 +24,9 @@ const Container = styled.div`
    flex-direction: row;
    flex-wrap: wrap;
    margin: 5px;
-   min-width: 280px;
-   height: 250px;
+   padding: 10px;
+   min-width: 600px;
+   height: 450px;
    display: flex;
    align-content: flex-start;
    align-items: center;
