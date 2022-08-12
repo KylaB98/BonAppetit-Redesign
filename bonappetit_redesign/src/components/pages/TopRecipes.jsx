@@ -6,7 +6,7 @@ import styled from 'styled-components';
 const Container = styled.div`
     display: flex;
     padding: 20px;
-    margin: 50px;
+    margin: 40px;
     justify-content: space-between;
 `;
 
