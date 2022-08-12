@@ -5,10 +5,10 @@ import Nav from "../nav/Nav";
 import Footer from "../footer/Footer";
 
 function Newsletter() {
-    const onSubmit = (e) => {
-        e.preventDefault();
-        console.log("refresh prevented");
-      };
+    // const onSubmit = (e) => {
+    //     e.preventDefault();
+    //     console.log("refresh prevented");
+    //   };
   return (
         
     <>
@@ -38,7 +38,7 @@ function Newsletter() {
         </form>
     </div>
     <div>
-        <img id="second" src={Salad}/>
+        <img id="second" src={Salad} alt=""/>
         </div>
         </div>
         <Footer/>

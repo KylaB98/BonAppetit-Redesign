@@ -19,14 +19,9 @@ function Nav() {
       <nav className="nav-container">
         <div className="nav-links">
           <Link className="navs" to="/">Home</Link>
-          <Link className="navs" to="/">Recipes</Link>
-<<<<<<< HEAD
-          <Link className="navs" to="/">Cooking</Link>
-          <Link className="navs" to="/newsletter">Newsletter</Link>
-=======
+          <Link className="navs" to="/recipes">Recipes</Link>
           <Link className="navs" to="/cooking">Cooking</Link>
-          <Link className="navs" to="/">Newsletter</Link>
->>>>>>> 23a3380 (Cooking Page Done)
+          <Link className="navs" to="/newsletter">Newsletter</Link>
         </div>
         <input id="input-search" type="text" placeholder='Search for "stir-fry"' disabled/>
       </nav>
