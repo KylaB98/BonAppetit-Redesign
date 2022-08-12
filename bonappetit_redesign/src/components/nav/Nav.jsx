@@ -21,7 +21,7 @@ function Nav() {
           <Link className="navs" to="/">Home</Link>
           <Link className="navs" to="/">Recipes</Link>
           <Link className="navs" to="/">Cooking</Link>
-          <Link className="navs" to="/">Newsletter</Link>
+          <Link className="navs" to="/newsletter">Newsletter</Link>
         </div>
         <input id="input-search" type="text" placeholder='Search for "stir-fry"' disabled/>
       </nav>
