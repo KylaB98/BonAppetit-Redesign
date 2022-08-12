@@ -66,13 +66,13 @@ function Footer() {
               <Link className="navs" to="/">
                 Home
               </Link>
-              <Link className="navs" to="/">
+              <Link className="navs" to="/recipes">
                 Recipes
               </Link>
-              <Link className="navs" to="/">
+              <Link className="navs" to="/cooking">
                 Cooking
               </Link>
-              <Link className="navs" to="/">
+              <Link className="navs" to="/newsletter">
                 Newsletter
               </Link>
             </div>
