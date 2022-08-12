@@ -52,7 +52,7 @@ const CategoryItem = ({item}) => {
         <Image src={item.img} />
         <Info>
             <Title>{item.title}</Title>
-            <Button>Let's Go</Button>
+            <a href={item.link}><Button>Let's Go</Button></a>
         </Info>
     </Container>
   )
