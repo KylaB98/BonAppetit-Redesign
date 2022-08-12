@@ -12,6 +12,7 @@ const Image = styled.img`
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 20px;
 
 `;
 
@@ -28,6 +29,7 @@ const Info = styled.div`
 `;
 
 const Title = styled.h1`
+  font-size: 50px;
   color: white;
   text-shadow: 2px 2px 2px #404040;
   margin-bottom: 20px;
@@ -36,10 +38,11 @@ const Title = styled.h1`
 const Button = styled.button`
   border: none;
   padding: 10px;
-  background-color: white;
-  color: gray;
+  background-color: black;
+  color: white;
   cursor: pointer;
   font-weight: 600;
+  font-size: 25px;
   box-shadow:2px 2px 2px #404040;
 `;
 
@@ -49,7 +52,7 @@ const CategoryItem = ({item}) => {
         <Image src={item.img} />
         <Info>
             <Title>{item.title}</Title>
-            <Button>Buy Now</Button>
+            <Button>Let's Go</Button>
         </Info>
     </Container>
   )
