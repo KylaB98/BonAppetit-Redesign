@@ -10,10 +10,6 @@ const Container = styled.div`
     justify-content: space-between;
 `;
 
-const Title = styled.h1`
-  display: flex;
-  
-`;
 
 const Categories = () => {
   return (
