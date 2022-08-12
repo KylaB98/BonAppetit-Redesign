@@ -1,0 +1,47 @@
+body {
+  background-color: #f9f9f1;
+}
+
+/* #first {
+  width: 50%;
+  float: left;
+  margin: 15% auto;
+} */
+
+#second {
+  width: 50%;
+  float: right;
+}
+
+#first {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+input {
+  height: 50px;
+}
+
+form {
+  margin: auto 5%;
+}
+
+h3 {
+  color: gray;
+}
+
+input[type=submit]{
+  background-color: black;
+  color: #f9f9f1;
+  width: 50%;
+}
+
+input[type=text]{
+  width: 50%;
+}
