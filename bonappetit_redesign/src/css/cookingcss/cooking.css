@@ -1,0 +1,67 @@
+/** -------------------------------Banner START------------------------------------ */
+.banner {
+  margin-top: 40px;
+  background-color: #ffda07;
+  text-align: center;
+  padding: 50px;
+}
+
+.banner h1 {
+  font-weight: bolder;
+  font-size: 85px;
+}
+
+.banner h3 {
+  padding-top: 20px;
+  font-family: "Assistant", sans-serif;
+  font-weight: 340;
+  font-size: 26px;
+}
+/** -------------------------------Banner END------------------------------------ */
+
+/** -------------------------------Cooking Section START------------------------------------ */
+.cooking-section {
+  padding: 20px;
+}
+
+.cooking-articles {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 80px;
+}
+.cooking-articles img {
+  border-radius: 10px;
+}
+.cooking-para {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 80px;
+  padding-top: 14rem;
+  height: 33vh;
+}
+
+.cooking-para p {
+  letter-spacing: 3px;
+  font-size: 18px;
+}
+
+.cooking-para a {
+  font-size: 35px;
+  text-decoration: none;
+  color: black;
+}
+
+.cooking-para a h4:hover {
+  text-decoration: underline;
+}
+
+.cooking-para h5 {
+  color: rgb(129, 129, 129);
+  font-size: 22px;
+  font-family: "Assistant", sans-serif;
+  font-weight: 300;
+}
+/** -------------------------------Cooking Section END------------------------------------ */
