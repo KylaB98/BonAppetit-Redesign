@@ -102,4 +102,9 @@ export const allRecipes = [
     img: "https://assets.bonappetit.com/photos/62d1e5c1774021a1a2db7ec9/1:1/w_2240,c_limit/0715-fish-tacos-recipe-lede.jpg",
     title: "Easy Fish Tacos With Spicy Sauce",
   },
+  {
+    id: 19,
+    img: "https://assets.bonappetit.com/photos/5a7363ae2d1b363d3b8f0a7f/1:1/w_2240,c_limit/stuffed-peppers-1.jpg",
+    title: "Stuffed Peppers",
+  }
 ]
