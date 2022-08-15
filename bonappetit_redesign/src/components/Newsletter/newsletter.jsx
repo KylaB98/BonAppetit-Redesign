@@ -32,7 +32,7 @@ function Newsletter() {
                 Enter your e-mail address 
             </label>
             <br/>
-            <input type="text" placeholder="Your e-mail address" name="email"/> <br/>
+            <input type="text" placeholder="Your email address" name="email" required/> <br/>
             <input type="submit" value="SIGN UP NOW"/><br/>
             By signing up you agree to our User Agreement and Privacy Policy & Cookie Statement.
         </form>

@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import '../../css/linkcss/links.css'
 
 const Container = styled.div`
     margin: 10px;
@@ -47,7 +48,7 @@ const TopRecipe = ({item}) => {
     <Container>
         <Image src={item.img}/>
         <Info>
-            <Title>{item.title}</Title>
+            <a href={item.link} style={{ textDecoration: 'none', color: 'inherit' }}><Title>{item.title}</Title></a>
             <Description>{item.description}</Description>
         </Info>
     </Container>

@@ -18,7 +18,7 @@ const Title = styled.h1`
 const TitleTwo = styled.h1`
   font-size: 60px;
   margin: 10px;
-  padding-top: 40px;
+  padding-top: 80px;
   display: flex;
   align-items: inline;
   justify-content: center;
